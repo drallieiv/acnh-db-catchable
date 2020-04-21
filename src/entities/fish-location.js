@@ -1,4 +1,4 @@
-import { BaseEntity } from './base-entity';
+import BaseEntity from './base-entity';
 
 export default class FishLocation extends BaseEntity {
 
