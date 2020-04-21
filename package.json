@@ -1,0 +1,25 @@
+{
+  "name": "@ehd/acnh-db-catchable",
+  "version": "1.0.0",
+  "description": "Animal Crossing New Horizon - Database of Catchable (Fish & Bugs)",
+  "scripts": {
+    "test": "mocha --reporter list --require @babel/register",
+    "build": "babel src --out-dir ./dist --source-maps"
+  },
+  "keywords": [
+    "acnh",
+    "animalCrossing"
+  ],
+  "author": "Drallieiv",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
